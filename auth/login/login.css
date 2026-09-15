@@ -1,0 +1,29 @@
+.topbar{
+  background-color: #3634a1;
+  padding: 15px;
+}
+.topbar header {
+    color: white;
+}
+body {
+    margin: 0;
+}
+
+
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+
+#password, #email, #submit {
+    width: 300px;
+    height: 20px;
+}
